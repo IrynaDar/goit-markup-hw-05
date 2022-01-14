@@ -120,7 +120,9 @@ color: var(--text-color);
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
@@ -156,7 +158,9 @@ color: var(--accent-color);
   color:var(--second-text-color);
   display: flex ;
   justify-content: center;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-mail:hover,
 .link-mail:focus,
@@ -169,7 +173,9 @@ color: var(--accent-color);
   display: flex; 
   margin-right: 10px;
   fill: var(--second-text-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .phone-icon {
@@ -177,7 +183,9 @@ color: var(--accent-color);
   margin-right: 10px;
   margin-left: 30px;
   fill: var(--second-text-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-icon:hover,
 .mail-icon:focus,
@@ -242,7 +250,9 @@ margin-right: auto;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -400,11 +410,15 @@ margin-right: auto;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-icon {
   fill: var(--icon-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-soc-link:hover,
 .team-soc-link:focus {
@@ -448,12 +462,14 @@ margin-right: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: backgound-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 .client-icon {
   fill: var(--icon-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 .client-link:hover,
 .client-link:focus {
   border-color: var(--accent-color);
@@ -508,8 +524,9 @@ span.part-color {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   padding-top: 9px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-};
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);};
 }
 .link-email:hover,
 .link-email:focus,
@@ -554,9 +571,11 @@ span.part-color {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-};
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .company-soc-link:hover,
 .company-soc-link:focus {
   background-color: var(--accent-color);
@@ -580,8 +599,9 @@ span.part-color {
   color: var(--text-color);
   border-radius: 4px;
   padding: 6px 22px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  transition-property: background-color box-shadow color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
 .main-btn:hover,
 .main-btn:focus {
   background-color: var(--accent-color);
@@ -633,8 +653,9 @@ color: var(--second-text-color);
 .port-project {
   margin-right: 30px;
   margin-bottom: 30px;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 .port-project:nth-child(3n) {
   margin-right: 0px;
 }
