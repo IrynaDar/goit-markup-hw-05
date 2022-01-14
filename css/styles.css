@@ -331,12 +331,33 @@ margin-right: auto;
   flex-wrap: wrap;
 }
 .functions-item {
+  position: relative;
   display: block;
   max-width: 370px;
   margin-right: 30px;
 }
 .functions-item:nth-child(3n) {
   margin-right: 0px;
+}
+.functions-img-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1,14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--btn-color);
+  background-color: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 100%;
+  max-height: 70px;
+  display: flex;
+  justify-content: center;
 }
 /* --------наша команда------------ */
 .team {
