@@ -205,6 +205,7 @@ color: var(--accent-color);
 .hero {
   background-color: var(--back-color);
   text-align: center;
+  justify-content: center;
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1600px;
@@ -676,6 +677,7 @@ span.part-color {
 }
 .active {
   background-color: #188CE8;
+  color: var(--btn-color);
 }
 .button-list {
   display: flex;
